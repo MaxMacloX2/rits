@@ -1,0 +1,32 @@
+:root {
+  --blue-01: #00b2e2;
+  --blue-02: #a8e5f5;
+  --blue-03: #0d1d41;
+}
+
+/* Background color */
+.bg-blue-02 {
+  background-color: var(--blue-02);
+}
+
+.navbar-blue {
+  color: rgba(255, 255, 255, 0.9);
+  background-color: var(--blue-03);
+  border-bottom-color: var(--blue-01);
+}
+
+.border-left-blue-01 {
+  border-left-color: var(--blue-01);
+}
+.nav-tabs-bottom .nav-link.active:before {
+  background-color: var(--blue-01);
+}
+
+.chart {
+  position: relative;
+  width: 100%;
+}
+
+.chart.has-minimum-width {
+  min-width: 37.5rem;
+}
